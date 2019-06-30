@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect
 from requests_oauthlib import OAuth1Session
 from urllib.parse import parse_qsl
 from . import config
