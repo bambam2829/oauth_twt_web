@@ -32,4 +32,5 @@ def post_list(request):
     result = {'result' : authenticate_endpoint}
 
 
-    return render(request, authenticate_endpoint,result)
+    return redirect(authenticate_endpoint)
+    #return render(request, 'blog/post_list.html',result)
