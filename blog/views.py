@@ -10,6 +10,8 @@ def post_list(request):
     consumer_key = CK
     consumer_secret = CS
 
+    request_token_url = "https://api.twitter.com/oauth/request_token"
+
     # Twitter Application Management で設定したコールバックURLsのどれか
     oauth_callback = "http://118.27.13.21/"
 
